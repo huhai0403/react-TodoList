@@ -1,0 +1,54 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, textarea, p{margin:0;padding:0;_zoom:1;}
+fieldset, img{border:0}
+address, caption, cite, code, dfn, em, strong, th, var{font-weight:normal}
+ol, ul{list-style:none}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal}
+q:before, q:after{content:''}
+input, textarea, select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select:focus{outline:none; resize: none;}
+i,em{ font-style:normal;}
+a{text-decoration:none;}
+a{outline: none; /* for Forefox */ }
+a{star:expression(this.onFocus=this.blur()); /* for Ie*/ }
+.clear:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clear{*zoom:1;}
+.oh{ overflow-y: scroll; width: 100%; height: 85%; padding-bottom: 10px;}
+.add{ width: 100%; height: 100%;}
+
+body{ width: 100%;height: 100%;}
+#main{ width: 100%; height: 100%; overflow: hidden;}
+.side{width: 90px;height: 100%; background:#353d40; position: fixed; left: 0; z-index: 2;}
+#headpic{ padding: 20px; border-bottom: 1px solid #444c4f;}
+.nav{ padding: 20px 0;}
+.nav li{ width: 100%; height: 50px; line-height: 50px; text-align: center; display: block;}
+.nav li a{ color: #a0aaad; display: block; width: 100%; height: 100%;}
+.nav li:hover{ background: #a0aaad; transition: 0.3s;}
+.nav li a:hover{ color: #dddddd; transition: 0.3s;}
+.content{width: 100%; height:100%; position: absolute; z-index: 1;}
+.wrap{ margin-left: 90px; height: 100%; }
+.top{ height: 26px; padding: 10px 20px;  border-bottom: 1px solid #e5e5e5;}
+.tip{ margin-right:25px; display:block; font-size: 14px; line-height: 26px; float: left;}
+.time{ margin-right:25px; display: block; float: left; font-size: 14px; line-height: 26px; color: #404040;}
+.checktime{ padding: 0 10px; float: left;}
+.checktime a{line-height: 26px; font-size: 22px; width: 26px; height: 26px; margin-right: 10px; display:inline-block; color: #666; font-weight: bolder;}
+.checktime a:hover{ color: #2bb1da;}
+.box{ width: 100%; height: 100%;}
+.bt{ border-top: 1px solid #d9d9d9;} .br{ border-right: 1px solid #d9d9d9;}
+.mr_1{ margin-right: -1px;}  .mt_1{ margin-top: -1px;}
+.block{ padding: 10px 20px; height: 100%; overflow: hidden; }
+.fir_block,.sec_block,.thi_block,.fou_block{ width: 50%; height: 50%; float: left; overflow:hidden;}
+.title{ width: 100%; height: 42px; line-height: 42px; border-radius: 3px;}
+.title span{ margin-left: 10px; float: left; display: block;}
+.title a{ margin-right: 10px; font-size: 20px; color: #999; line-height: 42px; float: right; display: block;}
+.first{ background: #ffede7; color: #f76333;} .second{ background: #ffefcb; color: #feae6a;} .third{ background: #d6f4fe; color: #3fc3e9} .fourth{ background: #eeffdd; color: #89c557;}
+.list{}
+.list li{ border-bottom: 1px dashed #d9d9d9; padding:0 10px 5px;}
+.caption{ height: 24px; line-height: 24px; padding: 10px 2px; font-size: 14px; }
+.caption input{ color: #404040; display: block; float: left; height:100%; font-weight: bold; }
+.caption button{ height: 100%; display: inline-block;}
+.caption em{ color: #ff2323; display: block; float: right;}
+.describe{ display: block; width: 98%; padding:2px 5px;  line-height: 16px;  font-size: 12px; color: #404040;}
+.change{ margin-left: 5px;}
+.change img{ vertical-align: middle;}
+
+.active{color:#fff; background:#000;}
